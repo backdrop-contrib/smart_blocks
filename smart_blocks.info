@@ -1,0 +1,5 @@
+type = module
+name = Smart Blocks
+description = A collection of blocks that allow using entity data from the current page.
+backdrop = 1.x
+tags[] = Layouts
