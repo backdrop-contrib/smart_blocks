@@ -29,8 +29,6 @@ function smart_blocks_preprocess(&$variables, $hook) {
   if (in_array($hook, ['block', 'block_dynamic'])) {
     $block = $variables['block'];
     if ($block instanceof SmartBlocksBase) {
-      dpm($block);
-
       // Get the current page entity so we can lookup fields.
       $entity = NULL;
       $router_item = menu_get_item();

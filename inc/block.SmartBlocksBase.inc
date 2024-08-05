@@ -185,7 +185,6 @@ class SmartBlocksBase extends Block {
 
     $this->settings['title_field'] = $form_state['values']['title_field'];
 
-    dpm($form_state);
     foreach ($this->fields as $field_name => $field_info) {
       switch ($field_info['type']) {
         case 'text_format':
